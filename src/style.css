@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    
+}
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ */
+
+.bar_header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.bar_header ul{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 10%;
+    font-weight: 500;
+}
+
+ 
+.nav-item{
+    /* display: flex; */
+    justify-items: center;
+    
+
+} 
+
+
