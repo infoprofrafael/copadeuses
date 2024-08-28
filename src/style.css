@@ -5,16 +5,17 @@
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     list-style: none;
+    text-align: center;
     
 }
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
 
 .montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
 }
  */
 
@@ -23,7 +24,7 @@
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 
@@ -33,15 +34,38 @@
     align-items: center;
     justify-content: space-around;
     column-gap: 10%;
-    font-weight: 500;
+    font-weight: 600;
 }
 
- 
 .nav-item{
-    /* display: flex; */
     justify-items: center;
     
 
 } 
+
+
+@media (max-width:1000px) {
+    
+.bar_header{
+    max-width: 100%;
+
+}
+.bar_header img{
+    width: 160px;
+}
+
+
+.bar_header ul{
+    column-gap: 8%;
+}
+
+}
+
+
+
+@media (max-width:900px) {
+
+}
+
 
 
