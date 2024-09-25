@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="32px" height="32px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1.34 1.34"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:blue}
+    .fil1 {fill:blue;fill-rule:nonzero}
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="0.06" y1="0.38" x2="1.27" y2="0.95">
+   <stop offset="0" style="stop-opacity:1; stop-color:#E6E7E8"/>
+   <stop offset="0.611765" style="stop-opacity:1; stop-color:#F2F2F3"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FEFEFE"/>
+  </linearGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2604127601104">
+   <rect class="fil0" width="1.34" height="1.34"/>
+   <g>
+    <path class="fil1" d="M0.75 0.54l0.01 0 -0.01 0.09c-0.04,0.01 -0.07,0.02 -0.1,0.03 -0.04,0.01 -0.07,0.01 -0.1,0.01 -0.07,0 -0.13,-0.02 -0.17,-0.05 -0.02,-0.03 -0.03,-0.08 -0.04,-0.13 0.01,0.03 0.02,0.05 0.04,0.07 0.03,0.04 0.09,0.07 0.17,0.07 0.04,0 0.08,-0.01 0.12,-0.03 0.03,-0.01 0.06,-0.04 0.08,-0.06zm-0.45 -0.02c-0.02,-0.04 -0.03,-0.09 -0.03,-0.15 0,-0.1 0.02,-0.18 0.08,-0.23 0.05,-0.05 0.12,-0.08 0.21,-0.08 0.07,0 0.13,0.01 0.2,0.04 0,0.04 -0.01,0.07 -0.01,0.08 0,0.01 0,0.02 0.01,0.02l0 0.02c0,0.02 -0.01,0.03 -0.01,0.05l-0.01 0c-0.02,-0.11 -0.08,-0.17 -0.19,-0.17 -0.07,0 -0.13,0.03 -0.17,0.07 -0.02,0.03 -0.04,0.07 -0.05,0.11 -0.01,0.01 -0.02,0.03 -0.03,0.05 -0.01,0.03 -0.02,0.07 -0.02,0.1 0,0.03 0.01,0.06 0.02,0.09z"/>
+    <g>
+     <g>
+      <ellipse class="fil2" transform="matrix(1.86563E-15 -0.0512933 0.0704421 1.35848E-15 0.688871 0.844877)" rx="1.18" ry="0.5"/>
+      <ellipse class="fil2" transform="matrix(1.86563E-15 -0.0512933 0.0704421 1.35848E-15 0.688871 1.03547)" rx="1.18" ry="0.5"/>
+     </g>
+     <path class="fil2" d="M0.8 0.61c0.15,0 0.27,0.15 0.27,0.33 0,0.19 -0.12,0.33 -0.27,0.33 -0.1,0 -0.11,-0.02 -0.08,-0.1 0,-0.02 0.04,0.05 0.08,0.05 0.13,0 0.23,-0.12 0.23,-0.28 0,-0.16 -0.1,-0.28 -0.23,-0.28 -0.02,0 -0.05,0.04 -0.07,0.05 -0.02,-0.07 -0.01,-0.1 0.07,-0.1z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
