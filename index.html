@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="slideInDown">
         <div class="bar_header">
 
             <div class="bar_header_img">
@@ -45,37 +45,206 @@
                         <a href="#tab1Id" class="nav-link active">DÚVIDAS</a>
                     </li>
                 </ul>
-                
+
             </div>
         </div>
     </header>
     <main>
+
         <div class="background-full">
+            <section id="section-start">
 
-            <div class="container-inicio">
 
-                <h1 id="titulo-container">Unindo fãs de futebol on-line!</h1>
-                
-                <div class="container-inicio-layer">
+                <div class="container-inicio">
 
-                    <div class="img-logo">
-                        <img src="src/img/Logo_so_nome_215x137.png" alt="" srcset="">
-                        
+                    <h1 class="zoomIn" id="titulo-container">Unindo fãs de futebol on-line!</h1>
+
+                    <div class="container-inicio-layer">
+
+                        <div class="img-logo">
+                            <img class="slideInUp " src="./src/img/Logo_so_nome_215x137.png" alt="" srcset="">
+
+                        </div>
+                        <div class="description fadeIn">
+
+                            <p id="description-container">
+                                Seja bem-vindo ao local que reune os entusiastas do aplicativo
+                                <strong>eFutball</strong>.
+                                Aqui a sua <strong>diversão </strong> é garantida, pois você encontra diversos
+                                jogadores,
+                                inclusive <strong>Pro-players</strong>.
+                            </p>
+                        </div>
+
                     </div>
-                    <div class="description">
-                        
-                        <p id="description-container">
-                            Seja bem-vindo ao local que reune os entusiastas do aplicativo <strong>eFutball</strong>.
-                            Aqui a sua <strong>diversão </strong> é garantida, pois você encontra diversos jogadores, inclusive <strong>Pro-players</strong>.
-                        </p>
-                    </div>
+
                 </div>
-                
-                
+            </section>
+
+            <section id="section-register">
+
+                <div class="register">
+                    <!-- register == container -->
+
+                    <h2 class="register-subtitle subtitle">Cadastro</h2>
+                    <!-- register-subtitle == title  -->
+                    <div class="description">
+                    <p id="inform-register">
+                        Informe os dados corretos, pois sen não estiverem corretos poderão prejudicar na hora do saque dos prémios.
+                    </p>
+                    </div>
+
+                    <div class="row">
+                        <!-- Loucura Fim -->
+                        <div class="inputbox">
+                            <!-- Nome -->
+                            <input type="text" id="nome" required>
+                            <label for="nome">Nome Completo</label>
+                        </div>
+                        <!-- E-mail -->
+                        <div class="inputbox">
+                            <input type="email" id="email" required>
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+
+                    <!-- CEP -->
+                    <div class="row">
+                        <div class="inputbox">
+                            <input type="tel" id="numberWhastapp" required>
+                            <label for="numberWhastapp">Número (Whatsapp)</label>
+                        </div>
+                    </div>
+                    
+
+                    <div class="row">
+                        <button id="btnClean" onclick="btnClean()">Limpar</button>
+                        <button id="btn">Salvar</button>
+                    </div>
+
+
+
+
+
+                </div>
+            </section>
+            <!-- Início da sessão de Ranking -->
+            <section id="ranking">
+                <div class="ranking-area">
+
+                    <!-- Início da Loucura 02 -->
+
+                    <div class="container-ranking">
+
+                        <div class="zoomIn">
+
+                            <h2 class="ranking-subtitle subtitle">Ranking</h2>
+                        </div>
+
+                        <div class="container-ranking-layer">
+
+                            <div class="img-ranking-free">
+                                <img class="slideInUp " src="src/img/Logo_Free.png" alt="" srcset="">
+
+                                <div class="ranking-free fadeIn">
+
+                                    <p id="description-container">
+                                    <ul>
+                                        <li>🥇Rei David</li>
+                                        <li>R7_PE</li>
+                                        <li>RBruxo</li>
+                                        <li>Caio-pro</li>
+                                        <li>Gomes</li>
+                                        <li>Messi_Sport</li>
+                                        <li>Rato-Clean</li>
+                                        <li>Dantas-pro</li>
+                                        <li>Amedoin</li>
+                                        <li>Gomes</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="img-ranking-pro">
+                                <img class="slideInUp " src="src/img/Logo_Pro.png" alt="" srcset="">
+
+                                <div class="ranking-pro fadeIn">
+
+                                    <p id="description-container">
+                                    <ul>
+                                        <li>🏆🥇 RalfKoF</li>
+                                        <li>RBruxo</li>
+                                        <li>R7_PE</li>
+                                        <li>Sand-pro</li>
+                                        <li>Annitta</li>
+                                        <li>Osmar-Bruto</li>
+                                        <li>Alan_futbol</li>
+                                        <li>Alanzinho-pro</li>
+                                        <li>Ananias</li>
+                                        <li>O-Rei</li>
+                                    </ul>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Fim da Loucura 02 -->
+                </div>
+            </section>
+            <!-- Fim da sessão de Ranking -->
+
+            <!--  Início da seção de dúvidas -->
+
+            <div class="duvidas">
+                <!-- duvidas == contato -->
+                <br>
+                <h2 class="subtitle" id="duvidas">Dúvidas?</h2>
+
+                <section class="duvidas-info">
+                    <!-- duvidas-info == infofooter -->
+
+
+                    <div class="author_foo">
+                        <img class="foto_author" src="./src/img/Logo_nome.png" alt="logo">
+
+                        <div class="share">
+                            <p>
+                                <strong>Fale já conosco! </strong>
+                            </p>
+                            <div class="social">
+                                <a href="https://wa.me/5581996678813?text=Ol%C3%A1%2C+vim+aqui+pelo+seu+site%21"
+                                    target="_blank"> <img src="./src/img/redesSociais/whatsapp-96.png" alt="logo whatsapp"
+                                        title="Whatsapp">
+                                </a>
+                                <a href="https://www.facebook.com/" target="_blank"> <img
+                                        src="./src/img/redesSociais/facebook-num-círculo-96.png" alt="logo facebook" title="facebook">
+                                </a>
+                                <a href="https://www.instagram.com/copadosdeusepe/" target="_blank"> <img
+                                        src="./src/img/redesSociais/instagram-96.png" alt="logo instagram" title="Instagram"> </a>
+                                <a href="mailto:" target="_blank"> <img
+                                        src="./src/img/redesSociais/nova-mensagem-96.png" alt="enviar e-mail" title="E-mail"> </a>
+                                <!-- Redes Sociais Copa dos Deuses PE -->
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+
+                    <a id="cima-topo" href="#home" title="Voltar ao Início!">&#9650;</a>
+                </section>
+
             </div>
-            
-            
-            
+
+
+
+
+
+
+
+            <!-- Final da seção de dúvidas -->
         </div>
     </main>
     <footer>
